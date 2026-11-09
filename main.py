@@ -1,4 +1,4 @@
-"""Tower of Hanoi"""
+"""A Python program that uses recursion to calculate the minimum number of moves needed to shift all disks from one peg to another using the rule hanoi(n) = 2 * hanoi(n-1) + 1."""
 
 def towerOfHanoi(n, source, target, auxiliary):
     if n == 1:
